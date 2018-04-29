@@ -8,11 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface Person : NSObject
 
-@property (nonnull) NSString *name;
+@property NSString *name;
 
-- (nonnull instancetype)initWithName:(nonnull NSString*)name;
-- (nonnull NSString*)fetchGreetingForTime:(nonnull NSString*)time;
+- (instancetype)initWithName:(NSString*)name;
+- (NSString*)fetchGreetingForTime:( NSString*)time;
 
 @end
+
+NS_ASSUME_NONNULL_END
