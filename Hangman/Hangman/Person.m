@@ -10,8 +10,20 @@
 
 @implementation Person
 
-- (void)printGreeting:(NSString*)greeting {
-    NSLog(@"%@", greeting);
+@synthesize name = _name;
+
+- (void)printGreeting {
+    NSLog(@"%@", _name);
+}
+
+- (NSString*)name {
+    NSLog(@"Reading name!");
+    return _name;
+}
+
+- (void)setName:(NSString *)newName {
+    NSLog(@"Writing name!");
+    _name = newName;
 }
 
 - (void)printGreetingTo:(NSString*)name atTimeOfDay:(NSString*)time {

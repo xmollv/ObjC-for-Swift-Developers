@@ -10,11 +10,8 @@
 
 @interface Person : NSObject
 
-- (void)printGreeting:(NSString*)greeting;
-- (void)printGreetingTo:(NSString*)name atTimeOfDay:(NSString*)time;
-- (NSDictionary*)fetchGreetingTo:(NSString*)name atTimeOfDay:(NSString*)time;
+@property NSString *name;
 
-+ (void)genericGreeting;
-+ (instancetype)personWithName:(NSString*)name;
+- (void)printGreeting;
 
 @end

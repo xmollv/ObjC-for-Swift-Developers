@@ -53,7 +53,8 @@ void printWord(NSString *word, NSMutableArray<NSString*> *usedLetters) {
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         Person *person = [Person new];
-        [person printGreetingTo:@"Taylor!" atTimeOfDay:@"evening"];
+        person.name = @"Taylor";
+        [person printGreeting];
     }
     return 0;
 }
