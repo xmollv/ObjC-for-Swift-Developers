@@ -10,9 +10,9 @@
 
 @interface Person : NSObject
 
-@property NSString *name;
+@property (nonnull) NSString *name;
 
-- (instancetype)initWithName:(NSString*)name;
-- (void)printGreeting;
+- (nonnull instancetype)initWithName:(nonnull NSString*)name;
+- (nonnull NSString*)fetchGreetingForTime:(nonnull NSString*)time;
 
 @end

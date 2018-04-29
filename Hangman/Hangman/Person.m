@@ -17,8 +17,8 @@
     return self;
 }
 
-- (void)printGreeting {
-    NSLog(@"%@", self.name);
+- (NSString*)fetchGreetingForTime:(NSString *)time {
+    return [NSString stringWithFormat:@"Good %@, %@!", time, self.name];
 }
 
 @end
