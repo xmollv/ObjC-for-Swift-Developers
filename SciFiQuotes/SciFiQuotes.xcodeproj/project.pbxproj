@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		47C9EC132097156C00514B1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C9EC122097156C00514B1B /* main.m */; };
+		47C9EC1B2097165100514B1B /* SFApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C9EC1A2097165100514B1B /* SFApp.m */; };
+		47C9EC1E2097165A00514B1B /* SFQuote.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C9EC1D2097165A00514B1B /* SFQuote.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		47C9EC0F2097156C00514B1B /* SciFiQuotes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SciFiQuotes; sourceTree = BUILT_PRODUCTS_DIR; };
 		47C9EC122097156C00514B1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47C9EC192097165100514B1B /* SFApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFApp.h; sourceTree = "<group>"; };
+		47C9EC1A2097165100514B1B /* SFApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFApp.m; sourceTree = "<group>"; };
+		47C9EC1C2097165A00514B1B /* SFQuote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFQuote.h; sourceTree = "<group>"; };
+		47C9EC1D2097165A00514B1B /* SFQuote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFQuote.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				47C9EC122097156C00514B1B /* main.m */,
+				47C9EC192097165100514B1B /* SFApp.h */,
+				47C9EC1A2097165100514B1B /* SFApp.m */,
+				47C9EC1C2097165A00514B1B /* SFQuote.h */,
+				47C9EC1D2097165A00514B1B /* SFQuote.m */,
 			);
 			path = SciFiQuotes;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47C9EC1E2097165A00514B1B /* SFQuote.m in Sources */,
+				47C9EC1B2097165100514B1B /* SFApp.m in Sources */,
 				47C9EC132097156C00514B1B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
